@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.el {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.el a:hover {
+  color: #01e8bc;
+}
+
+footer {
+  margin-bottom: 40px;
+}

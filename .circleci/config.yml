@@ -15,7 +15,7 @@ jobs:
           paths:
             - build/*
 
-  upload-to-s3:
+  deploy:
     <<: *defaults
     steps:
       - checkout

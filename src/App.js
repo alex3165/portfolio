@@ -57,7 +57,7 @@ class App extends Component {
             </li>
             <li className="el">
               <a
-                href="/Alexandre_Rieux_July_2018.pdf"
+                href="/Alexandre_Rieux_December_2018.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

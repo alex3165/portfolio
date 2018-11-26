@@ -14,7 +14,7 @@ class App extends Component {
             </span>
           </h2>
           <h2>
-            Working in{" "}
+            Working in London{" "}
             <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">
               🇬🇧
             </span>
@@ -22,7 +22,7 @@ class App extends Component {
         </header>
         <main>
           <p>
-            I am software engineer focusing on quality, efficiency and
+            I am Technical Lead Engineer focusing on quality, efficiency and
             creativity.
           </p>
         </main>

@@ -21,6 +21,15 @@ ul {
   padding: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .list {
+    flex-direction: column;
+  }
+  .el {
+    margin: 5px 20px !important;
+  }
+}
+
 .el {
   margin: 0 20px;
   cursor: pointer;

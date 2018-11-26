@@ -39,6 +39,15 @@ class App extends Component {
             </li>
             <li className="el">
               <a
+                href="https://medium.com/@alex_picprod"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Medium
+              </a>
+            </li>
+            <li className="el">
+              <a
                 href="https://twitter.com/alex_picprod"
                 target="_blank"
                 rel="noopener noreferrer"

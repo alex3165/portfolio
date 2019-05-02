@@ -1,80 +1,53 @@
-import React, { Component } from "react";
-import "./App.css";
+import React, { Component } from 'react';
+import './App.css';
+import { Footer } from './Footer';
+import { Main } from './Main';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
+        <header style={{}}>
           <h1 className="title">Hi</h1>
           <h2>
-            I am Alexandre Rieux, from{" "}
-            <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">
+            I am Alexandre Rieux, from{' '}
+            <span
+              style={{ marginRight: 10 }}
+              role="img"
+              aria-labelledby="jsx-a11y/accessible-emoji"
+            >
               🇫🇷
             </span>
-          </h2>
-          <h2>
-            Working in London{" "}
+            Working in London{' '}
             <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">
               🇬🇧
             </span>
           </h2>
-        </header>
-        <main>
-          <p>
-            I am Technical Lead Engineer focusing on quality, efficiency and
-            creativity.
+          <p
+            style={{
+              color: '#999',
+              lineHeight: 1.5,
+              marginTop: '40px',
+              marginBottom: '60px',
+              maxWidth: 600,
+              marginLeft: 'auto',
+              marginRight: 'auto'
+            }}
+          >
+            Currently working as Technical Lead Engineer
+            <a
+              href="https://onthedot.com"
+              target="_blank"
+              style={{ marginLeft: 4 }}
+            >
+              @Onthedot
+            </a>
+            , making same day deliveries more efficient and reliable. I focus on
+            quality code and scalable systems.
           </p>
-        </main>
-        <footer>
-          <ul className="list">
-            <li className="el">
-              <a
-                href="https://github.com/alex3165"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-            </li>
-            <li className="el">
-              <a
-                href="https://medium.com/@alex_picprod"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Medium
-              </a>
-            </li>
-            <li className="el">
-              <a
-                href="https://twitter.com/alex_picprod"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
-            </li>
-            <li className="el">
-              <a
-                href="https://www.linkedin.com/in/alexandrerieux/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Linkedin
-              </a>
-            </li>
-            <li className="el">
-              <a
-                href="/Alexandre_Rieux_December_2018.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </a>
-            </li>
-          </ul>
-        </footer>
+        </header>
+        <Main />
+        <Footer />
       </div>
     );
   }

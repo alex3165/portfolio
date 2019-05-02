@@ -36,19 +36,31 @@ export const Main = () => (
       <h2 style={label}>Side projects I built:</h2>
       <ul style={column}>
         <li style={item}>
-          <a href="https://giistr.com" target="_blank">
+          <a
+            href="https://giistr.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Giistr
           </a>
           : A web app for developers to find Github issues to contribute to
         </li>
         <li style={item}>
-          <a href="https://github.com/trainline/react-skeletor" target="_blank">
+          <a
+            href="https://github.com/trainline/react-skeletor"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             React-skeletor
           </a>
           : A React library to achieve skeleton loading
         </li>
         <li style={item}>
-          <a href="https://github.com/alex3165/react-mapbox-gl" target="_blank">
+          <a
+            href="https://github.com/alex3165/react-mapbox-gl"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             React-mapbox-gl
           </a>
           : A React library to display WebGL Mapbox map
@@ -60,6 +72,7 @@ export const Main = () => (
       <ul style={column}>
         <li style={item}>
           <a
+            rel="noopener noreferrer"
             href="https://codeburst.io/five-tips-i-wish-i-knew-when-i-started-with-typescript-c9e8609029db"
             target="_blank"
           >
@@ -68,6 +81,7 @@ export const Main = () => (
         </li>
         <li style={item}>
           <a
+            rel="noopener noreferrer"
             href="https://codeburst.io/build-rich-map-experiences-with-mapbox-and-react-fa13d2c814de"
             target="_blank"
           >
@@ -76,6 +90,7 @@ export const Main = () => (
         </li>
         <li style={item}>
           <a
+            rel="noopener noreferrer"
             href="https://codeburst.io/achieve-skeleton-loading-with-react-a12404678030"
             target="_blank"
           >
@@ -89,6 +104,7 @@ export const Main = () => (
       <ul style={column}>
         <li style={item}>
           <a
+            rel="noopener noreferrer"
             href="https://pusher.com/sessions/meetup/the-js-roundabout/webgl-map-with-mapbox-and-react"
             target="_blank"
           >

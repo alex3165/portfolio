@@ -37,6 +37,7 @@ class App extends Component {
             Currently working as Technical Lead Engineer
             <a
               href="https://onthedot.com"
+              rel="noopener noreferrer"
               target="_blank"
               style={{ marginLeft: 4 }}
             >

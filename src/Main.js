@@ -1,40 +1,49 @@
-import React from 'react';
+import React from "react";
 
 const label = {
   fontSize: 12,
-  color: '#999',
-  textAlign: 'left'
+  color: "#999",
+  textAlign: "left"
 };
 
 const column = {
   flex: 1,
-  listStyleType: 'none',
-  textAlign: 'left'
+  listStyleType: "none",
+  textAlign: "left"
 };
 
 const item = {
-  margin: '10px 0px'
+  margin: "10px 0px"
 };
 
 const wrapper = {
-  margin: '10px'
+  margin: "10px"
 };
 
 export const Main = () => (
   <div
     style={{
-      display: 'flex',
-      flex: '1',
-      justifyContent: 'space-around',
+      display: "flex",
+      flexDirection: "column",
+      width: 600,
+      flex: "1",
       marginTop: 20,
-      borderTop: '1px solid #eaeaea',
-      width: 1100,
-      margin: 'auto'
+      margin: "auto"
     }}
   >
     <div style={wrapper}>
-      <h2 style={label}>Side projects I built:</h2>
+      <h2 style={label}>Projects:</h2>
       <ul style={column}>
+        <li style={item}>
+          <a
+            href="https://monumap.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Monumap
+          </a>
+          : Travel inspirations from UNESCO sites
+        </li>
         <li style={item}>
           <a
             href="https://giistr.com"
@@ -43,7 +52,7 @@ export const Main = () => (
           >
             Giistr
           </a>
-          : A web app for developers to find Github issues to contribute to
+          : Find Github issues to contribute to
         </li>
         <li style={item}>
           <a
@@ -53,7 +62,7 @@ export const Main = () => (
           >
             React-skeletor
           </a>
-          : A React library to achieve skeleton loading
+          : React skeleton loading library
         </li>
         <li style={item}>
           <a
@@ -63,12 +72,12 @@ export const Main = () => (
           >
             React-mapbox-gl
           </a>
-          : A React library to display WebGL Mapbox map
+          : React Mapbox webgl library
         </li>
       </ul>
     </div>
     <div style={wrapper}>
-      <h2 style={label}>Articles I wrote:</h2>
+      <h2 style={label}>Articles:</h2>
       <ul style={column}>
         <li style={item}>
           <a
@@ -100,7 +109,7 @@ export const Main = () => (
       </ul>
     </div>
     <div style={wrapper}>
-      <h2 style={label}>Talks I gave:</h2>
+      <h2 style={label}>Talks:</h2>
       <ul style={column}>
         <li style={item}>
           <a

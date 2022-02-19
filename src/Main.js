@@ -1,34 +1,33 @@
 import React from "react";
 
 const label = {
-  fontSize: 12,
-  color: "#999",
-  textAlign: "left"
+  textAlign: "left",
+  fontSize: 16,
 };
 
 const column = {
   flex: 1,
   listStyleType: "none",
-  textAlign: "left"
+  textAlign: "left",
 };
 
 const item = {
-  margin: "10px 0px"
+  margin: "10px 0px",
 };
 
 const wrapper = {
-  margin: "10px"
+  margin: "10px",
+  color: "#333",
 };
 
 export const Main = () => (
   <div
     style={{
       display: "flex",
-      flexDirection: "column",
-      width: 600,
+      flexDirection: "row",
       flex: "1",
-      marginTop: 20,
-      margin: "auto"
+      margin: "60px auto",
+      maxWidth: 720,
     }}
   >
     <div style={wrapper}>
@@ -104,20 +103,6 @@ export const Main = () => (
             target="_blank"
           >
             Achieve skeleton loading with React
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div style={wrapper}>
-      <h2 style={label}>Talks:</h2>
-      <ul style={column}>
-        <li style={item}>
-          <a
-            rel="noopener noreferrer"
-            href="https://pusher.com/sessions/meetup/the-js-roundabout/webgl-map-with-mapbox-and-react"
-            target="_blank"
-          >
-            WebGL Map With Mapbox and React
           </a>
         </li>
       </ul>

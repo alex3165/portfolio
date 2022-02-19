@@ -5,6 +5,21 @@ body {
 }
 
 * {
-  font-family: "Source Code Pro", monospace;
-  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+
+h3,
+h2,
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #01e8bc;
 }

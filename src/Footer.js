@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const Footer = () => (
   <footer>
@@ -41,7 +41,7 @@ export const Footer = () => (
       </li>
       <li className="el">
         <a
-          href="/Alexandre_Rieux_December_2018.pdf"
+          href="/alexandre-rieux-jan-2022.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >

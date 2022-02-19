@@ -1,0 +1,38 @@
+name: Master
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-app:
+    name: Build App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@master
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+
+      - name: Install app dependencies
+        id: install
+        run: npm install
+
+      - name: Build app
+        id: build
+        run: npm run build
+
+      - name: Deploy app with the AWS CLI
+        run: |
+          aws configure set default.region eu-west-2
+          aws s3 sync build/* s3://alexr-portfolio --delete
+          aws cloudfront create-invalidation --distribution-id E2LZ98M743SYZR --paths "/*";

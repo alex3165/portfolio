@@ -26,48 +26,53 @@ class App extends Component {
 
           <p
             style={{
-              lineHeight: "28px",
-              fontSize: 14,
+              lineHeight: "30px",
+              fontSize: 16,
               marginBottom: "100px 0px",
               margin: "30px",
               textAlign: "left",
               color: "#222f3e",
             }}
           >
-            <span
-              style={{
-                fontSize: 40,
-                fontWeight: 500,
-                fontFamily: "Montserrat",
-                color: "black",
-              }}
-            >
-              Hi
-            </span>
-            , I am Alex and I am currently Tech Lead at{" "}
+            My name is Alexandre Rieux and I am currently Head of Engineering at{" "}
             <a
-              style={{ fontWeight: 600 }}
-              href="https://carnallfarrar.com/"
-              alt="CF website"
+              style={{ fontWeight: 600, color: "#c29980" }}
+              target="_blank"
+              href="https://hertilityhealth.com/"
+              alt="Hertility website"
             >
-              CF
+              Hertilityhealth
             </a>{" "}
-            where I lead a team of 12 engineers and scientists with a vision to
-            build data products that improve the{" "}
-            <a
-              style={{ fontWeight: 600 }}
-              href="https://www.nhs.uk/"
-              alt="NHS website"
-            >
-              NHS
-            </a>
-            . My main professional driver is to make sure the work I do have
-            positive societal impact. I have an extensive background in multiple
-            area of the software engineering process. I started my career as a
-            designer then shifted into Frontend engineering working for startups
-            and more established companies. I, later, extended my skills to
-            Backend and Platform engineering and I have now leadership
-            experience with strong technical foundations.
+            where I am responsible for leading a team of 6 talented software
+            engineers.
+            <br />
+            <br />
+            As an experienced engineering leader with over 8 years in the field,
+            I have honed my technical skills across various aspects of software
+            engineering, including frontend, fullstack, and platform
+            engineering. My passion lies in creating innovative digital products
+            that address challenges in the areas of healthtech and greentech.
+            <br />
+            <br />
+            In my current role, I have actively contributed to the company's
+            growth of 450% by expanding the team from 2 to 6 members. I have
+            successfully established an engineering culture and implemented a
+            modern distributed software platform.
+            <br />
+            <br />
+            In the past, I have effectively set up frontend architecture and
+            delivered multiple high-quality React web applications, which I
+            successfully deployed to millions of users. I have also built highly
+            scalable event-driven platforms, capable of handling a high volume
+            of events daily. In another business, I have expertly built a data
+            and engineering team, with a career framework and new infrastructure
+            for a healthtech consultancy firm.
+            <br />
+            <br />
+            My ability to communicate effectively and my empathy for others
+            allow me to understand people's feeling and bring people toward
+            achievements. I am a highly curious and thoughtful problem solver,
+            who leads and motivates teams towards successful achievements.
           </p>
         </main>
 
